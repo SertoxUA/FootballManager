@@ -48,26 +48,26 @@
         android:layout_marginStart="8dp" />
 
     <Button
-        android:id="@+id/demnia"
+        android:id="@+id/vorskla"
         style="@android:style/Widget.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_red_dark"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/yong"
-        tools:text="@string/demnia" />
+        tools:text="@string/vorskla"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/shakhtar"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
-        android:id="@+id/yong"
+        android:id="@+id/shakhtar"
         style="@android:style/Widget.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_green_light"
-        tools:text="@string/yong"
+        tools:text="@string/shakhtar"
+        android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/dynamo"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent" />
@@ -86,39 +86,40 @@
         tools:text="@string/dynamo" />
 
     <Button
-        android:id="@+id/odder"
+        android:id="@+id/veres"
         style="@android:style/Widget.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
         android:backgroundTint="@android:color/holo_green_light"
-        app:layout_constraintBaseline_toBaselineOf="@+id/dynamo"
-        app:layout_constraintLeft_toRightOf="@+id/dynamo"
-        tools:text="@string/odder" />
-
-    <Button
-        android:id="@+id/kuala"
-        style="@android:style/Widget.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/holo_red_dark"
-        tools:text="@string/kuala"
+        tools:text="@string/veres"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/odder"
-        app:layout_constraintLeft_toRightOf="@+id/yong"
+        app:layout_constraintTop_toBottomOf="@+id/selectTeam"
+        app:layout_constraintLeft_toRightOf="@+id/dynamo"
         android:layout_marginLeft="8dp" />
 
     <Button
-        android:id="@+id/sinergi"
+        android:id="@+id/zorya"
         style="@android:style/Widget.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/holo_red_dark"
-        app:layout_constraintLeft_toRightOf="@+id/demnia"
-        app:layout_constraintTop_toBottomOf="@+id/kuala"
-        tools:text="@string/sinergi" />
+        tools:text="@string/zarya"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/veres"
+        app:layout_constraintLeft_toRightOf="@+id/shakhtar"
+        android:layout_marginLeft="8dp" />
+
+    <Button
+        android:id="@+id/karpaty"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_dark"
+        tools:text="@string/karpaty"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/zorya"
+        app:layout_constraintLeft_toRightOf="@+id/vorskla"
+        android:layout_marginLeft="8dp" />
 
 
 </android.support.constraint.ConstraintLayout>

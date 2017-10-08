@@ -16,30 +16,18 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/demnia"
-            tools:layout_constraintTop_creator="1" />
-
         <TextView
             android:id="@+id/dynamo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-            app:layout_constraintLeft_toRightOf="@+id/imageView"
-            app:layout_constraintTop_toTopOf="parent"
             tools:layout_constraintLeft_creator="1"
-            tools:text="@string/dynamo" />
+            tools:text="@string/dynamo"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
 
         <TextView
             android:id="@+id/chemp"
@@ -48,11 +36,12 @@
             android:layout_marginTop="2dp"
             android:text="TextView"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            app:layout_constraintLeft_toLeftOf="@+id/dynamo"
             app:layout_constraintTop_toBottomOf="@+id/dynamo"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1"
-            tools:text="@string/chemp" />
+            tools:text="@string/chemp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
 
         <TextView
             android:id="@+id/skillTeam"
@@ -60,11 +49,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            app:layout_constraintLeft_toLeftOf="@+id/chemp"
             app:layout_constraintTop_toBottomOf="@+id/chemp"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1"
-            tools:text="@string/skillTeam" />
+            tools:text="@string/skillTeam"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
 
         <TextView
             android:id="@+id/skillTeamScore"
@@ -83,11 +73,12 @@
             android:layout_marginTop="2dp"
             android:text="TextView"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            app:layout_constraintLeft_toLeftOf="@+id/skillTeam"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/skillTeam"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1"
-            tools:text="@string/costTeam" />
+            tools:text="@string/costTeam"
+            android:layout_marginLeft="8dp" />
 
         <TextView
             android:id="@+id/costTeamScore"
@@ -105,9 +96,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            app:layout_constraintLeft_toLeftOf="@+id/costTeam"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/costTeam"
-            tools:text="@string/moneyTeam" />
+            tools:text="@string/moneyTeam"
+            android:layout_marginLeft="8dp" />
 
         <TextView
             android:id="@+id/moneyTeamScore"
@@ -128,8 +120,8 @@
             android:layout_marginTop="16dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            tools:text="@string/nextRival" />
+            tools:text="@string/nextRival"
+            app:layout_constraintTop_toBottomOf="@+id/moneyTeam" />
 
         <TextView
             android:id="@+id/nextRivalTeam"
@@ -137,7 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"
-            android:text="Оддер"
+            android:text="Шахтер"
             app:layout_constraintBaseline_toBaselineOf="@+id/nextRival"
             app:layout_constraintLeft_toRightOf="@+id/nextRival" />
 

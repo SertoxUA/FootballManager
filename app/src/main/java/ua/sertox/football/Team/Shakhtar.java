@@ -7,17 +7,17 @@ import android.widget.TextView;
 
 import ua.sertox.football.R;
 
-public class Yong extends AppCompatActivity {
+public class Shakhtar extends AppCompatActivity {
 
-    TextView yongName,skillTeam,skillTeamScore;
+    TextView shakhtarName,skillTeam,skillTeamScore;
     Button player12,player13,player14,player15,player16,player17,player18,player19,player20,player21,player22;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_yong);
+        setContentView(R.layout.activity_shakhtar);
 
-        yongName = (TextView) findViewById(R.id.yongName);
+        shakhtarName = (TextView) findViewById(R.id.shakhtarName);
         skillTeam = (TextView) findViewById(R.id.skillTeam);
         skillTeamScore = (TextView) findViewById(R.id.skillTeamScore);
         player12 = (Button) findViewById(R.id.btnplayer12);
@@ -32,7 +32,7 @@ public class Yong extends AppCompatActivity {
         player21 = (Button) findViewById(R.id.btnplayer21);
         player22 = (Button) findViewById(R.id.btnplayer22);
 
-        yongName.setText(R.string.yong);
+        shakhtarName.setText(R.string.shakhtar);
         skillTeam.setText(R.string.skillTeam);
         player12.setText(R.string.btnplayer12);
         player13.setText(R.string.btnplayer13);

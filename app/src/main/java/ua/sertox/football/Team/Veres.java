@@ -15,7 +15,7 @@ import java.util.Locale;
 
 import ua.sertox.football.R;
 
-public class Odder extends AppCompatActivity {
+public class Veres extends AppCompatActivity {
     private SectionsPagerAdapter OdderSectionsPagerAdapter;
 
     private ViewPager mViewPager;
@@ -23,7 +23,7 @@ public class Odder extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_odder);
+        setContentView(R.layout.activity_veres);
 
         OdderSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
