@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Футбольный менеджер</string>
+    <string name="app_name">Футбольный мир</string>
     <string name="selectTeam">Выберите команду</string>
     <string name="next">Дальше</string>
     <string name="skillTeam">Мастерство</string>
@@ -14,6 +14,7 @@
     <string name="send">Отправить</string>
     <string name="date">Дата</string>
     <string name="rezult_send">Результат/Отправка</string>
+    <string name="vName">Менеджер, введите Ваше имя:</string>
 
 
     <string name="vorskla">Ворскла</string>

@@ -4,23 +4,37 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.NoActionBar"
-        android:screenOrientation="landscape">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".MainActivity">
+            android:name=".Start"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Team.Vorskla" />
-        <activity android:name=".Team.Shakhtar" />
-        <activity android:name=".Team.Dynamo" />
-        <activity android:name=".Team.Veres" />
-        <activity android:name=".Team.Zarya"></activity>
+        <activity
+            android:name=".Team.Vorskla"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Team.Shakhtar"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Team.Dynamo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Team.Veres"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Team.Zarya"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>
