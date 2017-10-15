@@ -8,12 +8,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Start extends AppCompatActivity implements View.OnClickListener{
+import javax.inject.Inject;
+
+public class StartActivity extends AppCompatActivity implements View.OnClickListener{
 
     TextView appName;
     TextView vName;
     EditText editText;
     Button nextOnStart;
+
+    @Inject ActivityMediator activityMediator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +39,7 @@ public class Start extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        Intent mainInt = new Intent(this, MainActivity.class);
+        Intent mainInt = new Intent(this, TeamSelectionActivity.class);
         startActivity(mainInt);
     }
 }

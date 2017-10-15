@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".Start"
+            android:name=".StartActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,22 +18,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Team.Vorskla"
+            android:name=".TemplateTeamActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Team.Shakhtar"
+            android:name=".OldActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Team.Dynamo"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".Team.Veres"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".Team.Zarya"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".TeamSelectionActivity"
             android:screenOrientation="landscape" />
     </application>
 

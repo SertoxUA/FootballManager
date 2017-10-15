@@ -1,4 +1,4 @@
-package ua.sertox.football.Team;
+package ua.sertox.football;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -15,11 +15,9 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-import ua.sertox.football.R;
+public class TemplateTeamActivity extends AppCompatActivity {
 
-public class Dynamo extends AppCompatActivity {
-
-    TextView dynamoName;
+    TextView templateTeamName;
     TextView chemp;
     TextView skillTeam;
     TextView skillTeamScore;
@@ -38,9 +36,9 @@ public class Dynamo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dynamo);
+        setContentView(R.layout.activity_template_team);
 
-        dynamoName = (TextView) findViewById(R.id.dynamo);
+        templateTeamName = (TextView) findViewById(R.id.dynamo);
         chemp = (TextView) findViewById(R.id.chemp);
         skillTeam = (TextView) findViewById(R.id.skillTeam);
         skillTeamScore = (TextView) findViewById(R.id.skillTeamScore);
@@ -53,7 +51,7 @@ public class Dynamo extends AppCompatActivity {
 
         btnSend = (Button) findViewById(R.id.btnSend);
 
-        dynamoName.setText(R.string.dynamo);
+        templateTeamName.setText(R.string.templateTeam);
         chemp.setText(R.string.chemp);
         skillTeam.setText(R.string.skillTeam);
         costTeam.setText(R.string.costTeam);

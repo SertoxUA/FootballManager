@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Футбольный мир</string>
-    <string name="selectTeam">Выберите команду</string>
+
+    <string name="vName">Менеджер, введите Ваше имя:</string>
+    <string name="chooseTeam">Выбор команды</string>
+    <string name="chooseCountry">Выберите страну</string>
     <string name="next">Дальше</string>
+
     <string name="skillTeam">Мастерство</string>
     <string name="costTeam">Цена</string>
     <string name="chemp">Чемпионат</string>
@@ -14,61 +18,9 @@
     <string name="send">Отправить</string>
     <string name="date">Дата</string>
     <string name="rezult_send">Результат/Отправка</string>
-    <string name="vName">Менеджер, введите Ваше имя:</string>
 
-
-    <string name="vorskla">Ворскла</string>
-    <string name="shakhtar">Шахтер</string>
-    <string name="dynamo">Динамо</string>
-    <string name="veres">Верес</string>
-    <string name="zarya">Зоря</string>
-    <string name="karpaty">Карпаты</string>
-
-
-    <string name="btnplayer1">GK С.Кирик</string>
-    <string name="player1">GK Сергей Кирик</string>
-    <string name="btnplayer2">LD/RD Р.Багдай</string>
-    <string name="player2">LD/RD Роман Багдай</string>
-    <string name="btnplayer3">LD/RD С.Хандерсон</string>
-    <string name="player3">LD/RD Самуэль Хандерсон</string>
-    <string name="btnplayer4">CD/CM М.Гусак</string>
-    <string name="player4">CD/CM Мирослав Гусак</string>
-    <string name="btnplayer5">CD/LD Д.Сенич</string>
-    <string name="player5">CD/LD Джарен Сенич</string>
-    <string name="btnplayer6">LM/RM Барригана</string>
-    <string name="player6">LM/RM Барригана</string>
-    <string name="btnplayer7">CM/CD В.Дорошенко</string>
-    <string name="player7">CM/CD Валерий Дорошенко</string>
-    <string name="btnplayer8">CM/CF Б.Цурчич</string>
-    <string name="player8">CM/CF Божен Цурчич</string>
-    <string name="btnplayer9">CM/LM Р.Сааведра</string>
-    <string name="player9">CM/LM Рамиро Сааведра</string>
-    <string name="btnplayer10">RM/RF А.Борик</string>
-    <string name="player10">RM/RF Андрей Борик</string>
-    <string name="btnplayer11">CF/LF А.МакАлинден</string>
-    <string name="player11">CF/LF Арнольд МакАлинден</string>
-    <string name="btnplayer12">GK Р.Сюмтер</string>
-    <string name="player12">GK Ровенди Сюмтер</string>
-    <string name="btnplayer13">LD/RD Д.Матильда</string>
-    <string name="player13">LD/RD Дэррилл Матильда</string>
-    <string name="btnplayer14">CD/CM Ф.Зиммерман</string>
-    <string name="player14">CD/CM Фернандо Зиммерман</string>
-    <string name="btnplayer15">RD/LD Р.Селестина</string>
-    <string name="player15">RD/LD Ренсли Селестина</string>
-    <string name="btnplayer16">RD/CD И.Рой</string>
-    <string name="player16">RD/CD Илия Рой</string>
-    <string name="btnplayer17">LM/LF Р.Мюнстер</string>
-    <string name="player17">LM/LF Роберт ван Мюнстер</string>
-    <string name="btnplayer18">CM/CF В.Пурье</string>
-    <string name="player18">CM/CF Вендел Пурье</string>
-    <string name="btnplayer19">CM/CD Й.Харрис</string>
-    <string name="player19">CM/CD Йон Харрис</string>
-    <string name="btnplayer20">CM/CF М.Шарма</string>
-    <string name="player20">CM/CF Мигма Шарма</string>
-    <string name="btnplayer21">RM/RF К.Христина</string>
-    <string name="player21">RM/RF Квинтон Христина</string>
-    <string name="btnplayer22">CF/CM А.Саричев</string>
-    <string name="player22">CF/CM Александр Саричев</string>
+    <string name="ukraine">Украина</string>
+    <string name="templateTeam">Шаблон команды</string>
 
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -159,6 +111,5 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-
 
 </resources>
