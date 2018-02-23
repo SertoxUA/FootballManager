@@ -5,6 +5,7 @@
     <string name="chooseTeam">Выбор команды</string>
     <string name="chooseCountry">Выберите страну</string>
     <string name="next">Дальше</string>
+    <string name="example_team">Пример команды</string>
 
     <string name="skillTeam">Мастерство</string>
     <string name="costTeam">Цена</string>
@@ -21,6 +22,7 @@
 
     <string name="ukraine">Украина</string>
     <string name="templateTeam">Шаблон команды</string>
+    <string name="dynamo">Динамо</string>
 
     <string name="large_text">
         "Material is the metaphor.\n\n"

@@ -16,8 +16,7 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
     TextView vName;
     EditText editText;
     Button nextOnStart;
-
-    @Inject ActivityMediator activityMediator;
+    Button exampleTeam;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,18 +27,32 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
         vName = (TextView) findViewById(R.id.vName);
         editText = (EditText) findViewById(R.id.editName);
         nextOnStart = (Button) findViewById(R.id.nextOnStart);
+        exampleTeam = (Button) findViewById(R.id.exampleTeam);
 
         appName.setText(R.string.app_name);
         vName.setText(R.string.vName);
         nextOnStart.setText(R.string.next);
+        exampleTeam.setText(R.string.example_team);
 
         nextOnStart.setOnClickListener(this);
+        exampleTeam.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View v) {
-        Intent mainInt = new Intent(this, TeamSelectionActivity.class);
-        startActivity(mainInt);
+        Intent intent;
+
+        switch (v.getId()){
+            case R.id.nextOnStart:
+                intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.exampleTeam:
+                intent = new Intent(this, TemplateTeamActivity.class);
+                startActivity(intent);
+                break;
+        }
+
     }
 }

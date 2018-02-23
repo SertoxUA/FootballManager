@@ -26,6 +26,12 @@
         <activity
             android:name=".TeamSelectionActivity"
             android:screenOrientation="landscape" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".expand.ExpandActivity" />
+        <activity android:name=".multicheck.MultiCheckActivity" />
+        <activity android:name=".multitype.MultiTypeActivity" />
+        <activity android:name=".multitypeandcheck.MultiTypeCheckGenreActivity" />
+        <activity android:name=".singlecheck.SingleCheckActivity" />
     </application>
 
 </manifest>

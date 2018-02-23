@@ -51,7 +51,7 @@ public class TemplateTeamActivity extends AppCompatActivity {
 
         btnSend = (Button) findViewById(R.id.btnSend);
 
-        templateTeamName.setText(R.string.templateTeam);
+        templateTeamName.setText(R.string.dynamo);
         chemp.setText(R.string.chemp);
         skillTeam.setText(R.string.skillTeam);
         costTeam.setText(R.string.costTeam);
